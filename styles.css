@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  background-image: url("images/piano.jpg");
+  background-size: cover;
+  
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+#title {
+  margin-top: 80px;
+}
+
+.c {
+  background-image: url(images/1.jpg);
+}
+
+.d {
+  background-image: url(images/2.jpg);
+}
+
+.e {
+  background-image: url(images/3.jpg);
+}
+
+.f {
+  background-image: url(images/4.jpg);
+}
+
+.g {
+  background-image: url(images/5.jpg);
+}
+
+.a {
+  background-image: url(images/6.jpg);
+}
+
+.b {
+  background-image: url(images/7.jpg);
+}
+
+.set {
+  margin: 5% auto;
+}
+
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+
+.piano {
+  outline: none;
+  border: 5px solid #f4c983;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #ff1e56;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 75px;
+  height: 360px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
